@@ -277,6 +277,7 @@
 "TF_Welcome_eotl_launch"		"Welcome"
 "TF_Welcome_community_update"	"Welcome"
 "TF_Cancel"				"CANCEL (&0)"
+"TF_Cancel_NoKey"		"CANCEL"
 "TF_Back"				"&BACK"
 "TF_WatchIntro"				"&WATCH MOVIE"
 "TF_ReplayIntro"			"&REPLAY MOVIE"
@@ -299,6 +300,7 @@
 
 "TF_ClassMenu_Go"			"GO!"
 "TF_ClassMenu_Cancel"		"CANCEL (&0)"
+"TF_ClassMenu_Cancel_NoKey" "CANCEL"
 
 "TF_WatchIntro_360"			"Watch Movie"
 "Button_SkipIntro_360"			"Skip Movie"
@@ -1194,6 +1196,12 @@
 
 "TF_Medal_ThoughtThatCounts"					"Thought that Counts"
 "TF_Medal_ThoughtThatCounts_Desc"					"TF2mixup Community Event 2014"
+
+"TF_Medal_JingleJam2015_Xephos"					"Xephos' Philanthropic Physiognomy"
+"TF_Medal_JingleJam2015_Xephos_Desc"				"Yogscast Jingle Jam 2015 (Xephos edition)"
+
+"TF_Medal_JingleJam2015_Honeydew"				"Honeydew's Charitable Countenance"
+"TF_Medal_JingleJam2015_Honeydew_Desc"				"Yogscast Jingle Jam 2015 (Honeydew edition)"
 
 "TF_Medal_InfoShow2014"							"InfoShow TF2 Tournament Participant"
 "TF_Medal_InfoShow2014_Desc"						"InfoShow LAN Party 2014"
@@ -3750,6 +3758,7 @@
 "Tournament_TeamSetupReady"		"Team Ready"
 "Tournament_Instructions"		"F4 = change team name/status"
 "Tournament_Instructions_Ready"		"F4 = Toggle Ready"
+"Tournament_Instructions_Ready_NoKeyHintText" "Toggle Ready"
 "Tournament_Instructions_Waiting"	"Waiting For Players"
 "Tournament_TeamNamePanel"		"Team Name"
 "Winpanel_TournamentTeamWins"		"%s1 WINS!"
@@ -4472,6 +4481,7 @@
 "Hud_Menu_Taunt_Cancel"					"Hit '%lastinv%' to Cancel"
 "Hud_Menu_Taunt_Weapon"					"Hit '%taunt%' to Weapon Taunt or join a partner taunt"
 "Hud_Menu_Taunt_NoItem"					"No Item"
+"Hud_Menu_Taunt_Weapon_NoKey"			"Weapon Taunt"
 
 // hud menu actions
 "Hud_Menu_Spy_Toggle"					"Toggle Teams"
@@ -4688,6 +4698,8 @@
 //Spectator Panel
 "TF_Spectator_ChangeClass"	"Press [ %changeclass% ] to Change Class"
 "TF_Spectator_ChangeTeam"	"Press [ %changeteam% ] to Change Team"
+"TF_Spectator_ChangeClass_NoKey" "Change Class"
+"TF_Spectator_ChangeTeam_NoKey" "Change Team"
 "TF_Spectator_AutoDirector" "Press [ %strafe% ] for Auto Director"
 "TF_Spectator_SwitchCamModeKey"	"[%jump%]"
 "TF_Spectator_SwitchCamMode"	"Switch Camera Mode"
@@ -12022,6 +12034,8 @@ D-pad to move, triggers=faster, A button for next line."
 
 "TF_fall2013_air_raider"		"Bone Dome" // ADD THE
 "TF_fall2013_air_raider_Desc"		"Comes with a visor capable of shielding your eyes from the harsh glare of people running away from you on fire."
+"TF_fall2013_air_raider_style1"		"Style 1"
+"TF_fall2013_air_raider_style2"		"Style 2"
 "TF_fall2013_fire_bird"		"Air Raider" // ADD THE
 "TF_fall2013_fire_bird_Desc"		"Designed specifically for hotshot pilots, this mask only distributes oxygen if you're doing a cool barrel roll into the Danger Zone."
 "TF_fall2013_the_braided_pride"		"Viking Braider" // ADD THE
@@ -12527,6 +12541,8 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_cc_summer2015_lurkers_leathers_style1"	"Wall Street"
 "TF_cc_summer2015_commissars_coat"		"Commissar's Coat"
 "TF_cc_summer2015_sheriffs_stetson"		"Sheriff's Stetson"
+"TF_cc_summer2015_sheriffs_stetson_style1"		"Style 1"
+"TF_cc_summer2015_sheriffs_stetson_style2"		"Style 2"
 "TF_cc_summer2015_wild_west_waistcoat"		"Wild West Waistcoat"
 "TF_cc_summer2015_fortunate_son"		"Fortunate Son"
 "TF_cc_summer2015_flak_jack"		"Flak Jack"
