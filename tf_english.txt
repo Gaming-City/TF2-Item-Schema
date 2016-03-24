@@ -2552,6 +2552,8 @@
 "TF_EngineerPocketCat" 		"Pocket Purrer" // ADD THE
 "TF_EngineerPocketCat_Desc" 		"Little known fact: cats are fantastic engineers. Go ahead and ask about it next time you see one. In case you don't speak feline, \"meow\" means \"that cantilever is deflected over its g-type joist girder.\" It's probably going to say that a lot."
 "TF_HeavyMustacheHat"		"Soviet Gentleman" // ADD THE
+"TF_HeavyMustacheHat_Style1"		"Normal"
+"TF_HeavyMustacheHat_Style2"		"Camo"
 "TF_HeavyMustacheHat_Desc"	"Heavy is a man of intrigue, and every intrigue-man worth his salt deserves a fine hat and moustache to sport. That way, people can excitedly whisper things like: \"I wonder how long it took him to grow that moustache\" and \"what do you think he keeps under his hat?\""
 "TF_MedicGasMask"			"Medi-Mask"
 "TF_MedicGasMask_Desc"		"As a thought experiment, Medic has taken to wearing this mask, releasing innocuous gas into a room and screaming, \"Dear god – the poison tanker has burst!\" to see what people will do. So far, the tests have been inconclusive. Although, a couple people have died. So that's interesting."
@@ -2719,6 +2721,8 @@
 "TF_ItsyBitsySpyer"				"Itsy Bitsy Spyer" // ADD THE
 "TF_ItsyBitsySpyer_Desc"			"Is that a miniature Spy in your pocket, or are you just happy to OH GOD STOP HITTING ME!"
 "TF_AllFather"					"All-Father" // ADD THE
+"TF_AllFather_Style1"					"Classic"
+"TF_AllFather_Style2"					"Thunderstruck"
 "TF_AllFather_Desc"					"Throughout the history of civilization, the white beard has come to symbolize wisdom and status. Show the world it's possible to be bearded AND stupid with this Heavy- and Soldier-specific face-nest. Shove it, civilization!"
 "TF_JingleHell"					"Jingle Belt" // ADD THE
 "TF_JingleHell_Desc"			"Slay-bells will be ringing in the slow-roasted ears of your burn victims."
@@ -6055,6 +6059,7 @@
 "NewItemMethod_QuestLoaner" "You're borrowing for a Contract:"
 "NewItemMethod_TradeUp"	"You traded up for:"
 "NewItemMethod_QuestMerasmissionOutput" "You Completed a Merasmission and Received:"
+"NewItemMethod_ViralCompetitiveBetaPassSpread" "Your Competitive Beta Pass Generated:"
 
 "NextItem"				"VIEW\nNEXT >"
 "PreviousItem"			"VIEW\n< PREV"
@@ -8873,6 +8878,7 @@
 "Item_QuestOutput"					"%s1 has completed a Contract and received:: %s2 %s3"
 "Item_TradeUp"						"%s1 has traded up for:: %s2 %s3"
 "Item_QuestMerasmissionOutput"		"%s1 has completed a Merasmission and received:: %s2 %s3"
+"Item_ViralCompetitiveBetaPassSpread"	"%s1 has found:: %s2 %s3"
 
 "Item_BlacklistedInMatch"			"Item '%s1' has been disabled in this tournament match by the server whitelist."
 "Item_Named"						"%s1 has renamed their %s2 to %s3"
@@ -9198,6 +9204,11 @@
 "MMenu_ViewUpdateDetails"	"View Details"
 "MMenu_ViewUpdateComic"		"Read the comic"
 "MMenu_OverlayRequired"	"You must enable the Steam Community in-game and restart TF2 to use this feature."
+
+"MMenu_Stream_LiveStream"			"LIVE STREAMS"
+"MMenu_Stream_Title"				"Currently Playing:"
+"MMenu_Stream_ViewMore"				"VIEW MORE"
+"MMenu_Stream_Loading"				"Retrieving stream information..."
 
 //----------------------------------------------------------------------------------------
 // Explanation popups
@@ -10139,6 +10150,10 @@
 "TF_MM_Rejoin_Leave"			"Leave"
 "TF_MM_Rejoin_FailedTitle"		"Rejoin Failure"
 "TF_MM_Rejoin_FailedBody"		"Unable to rejoin game. The reserved time has expired or the game has ended."
+"TF_MM_LeaveParty_Title"		"Leave Party?"
+"TF_MM_LeaveParty_Confirm"		"Leaving this screen will remove you from the party.  Proceed?"
+"TF_MM_LeaveQueue_Title"		"Exit Search?"
+"TF_MM_LeaveQueue_Confirm"		"Leaving this screen will remove you from the search queue.  Proceed?"
 "TF_Quickplay_PlayNow"			"Play Now!"
 "TF_Quickplay_ShowServers"		"Show servers"
 "TF_Quickplay_Connect"			"Connect"
@@ -11172,6 +11187,9 @@
 
 "TF_Competitive_Pass"					"Competitive Matchmaking Beta Pass"
 "TF_Competitive_Pass_Desc"				"Present this pass in the Competitive Mode Beta to gain access to ranked ladder games."
+"TF_Competitive_Pass_Viral_Desc"		"Grants access to the Competitive Matchmaking Beta to Premium users who have Steam Guard Mobile Authenticator enabled."
+"TF_Competitive_Pass_Viral_Invite"			"Competitive Matchmaking Beta Invite"
+"TF_Competitive_Pass_Viral_Invite_Desc"		"Give this to a friend who has a Premium account and Steam Guard Mobile Authenticator enabled to grant them access to the Competitive Matchmaking Beta."
 "TF_Competitive_RequiresPass_Title"		"Competitive Access Required"
 "TF_Competitive_RequiresPass"			"You do not currently meet the requirements for ranked matchmaking. You must have a Competitive Matchmaking Beta Pass and Steam Guard Mobile Authenticator enabled."
 "TF_Competitive_Disconnect"				"The match is over. Thanks for playing!"
