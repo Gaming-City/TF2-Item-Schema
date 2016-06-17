@@ -2687,6 +2687,8 @@
 "TF_OldBrimstone"						"A Whiff of the Old Brimstone"
 "TF_OldBrimstone_Desc"					"Your enemies will clap in delight at the cartoonish innocence of these old-timey bombs, making it that much sweeter when you blow their arms off."
 "TF_SoldierHat1"						"Salty Dog" // ADD THE
+"TF_SoldierHat1_Style0"					"Salty"
+"TF_SoldierHat1_Style1"					"Smoky"
 "TF_SoldierHat1_Desc"					"Get all of a boat captain's respect without the crushing responsibility of actually captaining a boat or the enormous amount of ongoing maintenance a boat requires!"
 "TF_PyroHat1"							"Little Buddy" // ADD THE
 "TF_PyroHat1_Desc"						"People will think you're in the Navy. But the joke is on them, BECAUSE YOU'RE NOT! That is just one possible benefit of this tricky hat."
@@ -2767,8 +2769,12 @@
 "TF_SoldierWinterCoat"			"Kringle Collection" // ADD THE
 "TF_SoldierWinterCoat_Desc"			"Do the snow-pants dance with this stylish holiday ensemble from famed Arctic designer Kristoff Kringle."
 "TF_TheElf"						"Big Elfin Deal" // ADD THE
+"TF_TheElf_Style0"				"North Pole"
+"TF_TheElf_Style1"				"South Pole"
 "TF_TheElf_Desc"				"You ask me if I wanna be a dentist one more time, pal, I'm gonna kick your teeth in."
 "TF_Scout_Elf_Boots"			"Bootie Time" // ADD THE
+"TF_Scout_Elf_Boots_Style0"		"North Pole"
+"TF_Scout_Elf_Boots_Style1"		"South Pole"
 "TF_Scout_Elf_Boots_Desc"		"You dasher! You dancer! You prancer! You VIXEN! Pull Santa's sleigh all by yourself, you sexy little man."
 "TF_Winter2011_Ebenezer"		"Ebenezer" // ADD THE
 "TF_Winter2011_Ebenezer_Desc"	"If you are visited by one piece of spectral headwear this night, make it the Ghost of Christmas Hats, donated in true Smissmas spirit by Steam User Jacen."
@@ -2905,6 +2911,8 @@
 "TF_ToughStuffMuffs_Desc"		"Frostbite of the ears halts blood flow, and leads to tissue death, gangrene, and infection. And nobody wants to look at your gangrenous infected ears. Cover up those frostbitten abominations with these stylish earmuffs."
 "TF_ToughStuffMuffs_Style0"		"Montreal Style"
 "TF_ToughStuffMuffs_Style1"		"Boston Style"
+"TF_ToughStuffMuffs_Style2"		"Montreal Style (No Earmuffs)"
+"TF_ToughStuffMuffs_Style3"		"Boston Style (No Earmuffs)"
 
 "TF_TheColdKiller"				"Cold Killer" // ADD THE
 "TF_TheColdKiller_Desc"			"Melt into the wintry shadows with The Cold Killer, assuming the shadows are a mixture of white, red, brown and khaki."
@@ -3199,7 +3207,7 @@
 "koth_harvest_final_authors"	"Sean 'Heyo' Cutino"
 "cp_freight_final1_authors"		"Jamie 'Fishbus' Manson\nMitch 'ol' Robb"
 "cp_coldfront_authors"			"Eric 'Icarus' Wong\nDavid 'Selentic' Simon\nAeon 'Void' Bollig\nTim 'YM'Johnson"
-"cp_mountainlab"				"Valentin '3DNJ' Levillain"
+"cp_mountainlab_authors"		"Valentin '3DNJ' Levillain"
 "cp_manor_event_authors"		"Tim 'YM' Johnson\nAlex 'Rexy' Kreeger"
 "plr_nightfall_authors"			"Aaron 'Psy' Garcha\nPaul Good"
 "pl_frontier_authors"			"Patrick 'MangyCarface' Mulholland\nArhurt"
@@ -3453,6 +3461,7 @@
 "TF_Map_pass_warehouse_goal2"	"Warehouse Goal2 - BETA"
 "TF_Map_pass_pinewood"			"Pinewood - BETA"
 "TF_Map_tc_hydro"				"Hydro"
+"TF_Map_cp_degrootkeep"			"DeGroot Keep"
 
 "TF_Egypt_StrangePrefix"		" Egyptian"
 "TF_Junction_StrangePrefix"		" Technical"
@@ -7418,6 +7427,8 @@
 "GunMettleCosmetics_collection_desc"		"Items from the Gun Mettle Cosmetics Collection:"
 "ToughBreakCosmetics_collection"			"Tough Break Cosmetics Collection"
 "ToughBreakCosmetics_collection_desc"		"Items from the Tough Break Cosmetics Collection:"
+"MayflowerCosmetics_collection"				"Mayflower Cosmetics Collection"
+"MayflowerCosmetics_collection_desc"		"Items from the Mayflower Cosmetics Collection:"
 
 "Footer_GunMettleCosmetics"					"Contents may be Strange or an Unusual Gun Mettle Hat"
 "TF_GunMettleCosmeticCase"					"Gun Mettle Cosmetic Case"
@@ -7434,6 +7445,14 @@
 "TF_Tool_ToughBreakCosmeticKey"				"Tough Break Cosmetic Key"
 "TF_Tool_ToughBreakCosmeticKey_desc"		"Used to Open a Tough Break Cosmetic Case"
 "TF_Tool_ToughBreakCosmeticKey_AdText" 		"-Used to open a Tough Break Cosmetic Case\n-Contents may be Strange or an Unusual Tough Break Hat"
+
+"Footer_MayflowerCosmetics"					"Contents may be Strange or an Unusual Mayflower Hat"
+"TF_MayflowerCosmeticCase"					"Mayflower Cosmetic Case"
+"TF_MayflowerCosmeticCase_desc"				"This case is locked and requires a\nMayflower Cosmetic Key to open.\n\nContains a community made item \nfrom the Mayflower Cosmetic Collection."
+"TF_MayflowerCosmeticCase_AdText"			"-Contains Community Cosmetics\n-Requires a Mayflower Cosmetic Key to open\n-Contents may be Strange or an Unusual Mayflower Hat"
+"TF_Tool_MayflowerCosmeticKey"				"Mayflower Cosmetic Key"
+"TF_Tool_MayflowerCosmeticKey_desc"			"Used to open a Mayflower Cosmetic Case"
+"TF_Tool_MayflowerCosmeticKey_AdText"		"-Used to open a Mayflower Cosmetic Case\n-Contents may be Strange or an Unusual Mayflower Hat"
 
 // Operation tough break
 "operation_tough_break_master_collection"	"The Tough Break Collections"
@@ -10269,7 +10288,7 @@
 "TF_GameModeDesc_Community_Update"		"Tour the maps for the Invasion Community Update."
 "TF_GameModeDetail_Community_Update"	"Select this option to join a game server that continually runs the maps for the Invasion Community Update."
 "TF_GameModeDesc_Misc"			"Game modes that don't fit into one of the other categories."
-"TF_GameModeDetail_Misc"	"Select this option to play game modes like Territorial Control, Special Delivery, and Player Destruction."
+"TF_GameModeDetail_Misc"	"Select this option to play game modes like Territorial Control, Special Delivery, Medieval, and Player Destruction."
 
 //----------------------------------------------------------------------------------------
 // Trading
@@ -10856,6 +10875,29 @@
 "TF_OptionCategory_Performance"		"Performance Options"
 "TF_OptionCategory_Misc"			"Miscellaneous Options"
 "TF_OptionCategory_Replay"			"Replay Options"
+"TF_OptionCategory_DemoSupport"		"Demo Support"
+
+"TF_DemoSupport"					"Recording Mode"
+"TF_DemoSupport_ToolTip"				"Manual vs. Auto-Record. When set to Manual, recordings can be started/stopped using the ds_record/ds_stop commands."
+"TF_DemoSupport_Manual"				"Manual"
+"TF_DemoSupport_Comp"				"Auto-Record Competitive Matches"
+"TF_DemoSupport_All"				"Auto-Record All Matches"
+"TF_DemoSupport_Dir"				"Folder to be used"
+"TF_DemoSupport_Dir_ToolTip"				"This folder will be used for the demo recordings and associated demo support files. The folder must be under the game directory."
+"TF_DemoSupport_Prefix"				"Filename prefix"
+"TF_DemoSupport_Prefix_ToolTip"				"This string will be used to prefix the files that are created"
+"TF_DemoSupport_MinStreak"			"Min killstreak count"
+"TF_DemoSupport_MinStreak_ToolTip"			"This is the minimum killstreak count before the killstreaks are logged"
+"TF_DemoSupport_KillDelay"			"Max time between kills"
+"TF_DemoSupport_KillDelay_ToolTip"			"This is the maximum time between kills before the killstreak count is reset to zero"
+"TF_DemoSupport_Log"				"Log events"
+"TF_DemoSupport_Log_ToolTip"				"If set, all events are to the general _events.txt file and to a specific .json file that contains the events for each associated .dem file"
+"TF_DemoSupport_Sound"				"Play sounds for start/stop events"
+"TF_DemoSupport_Notify"				"Location of the in-game notifications"
+"TF_DemoSupport_Notify_ConsoleOnly"	"Console only"
+"TF_DemoSupport_Notify_Chat"		"Console and chat window"
+"TF_DemoSupport_Notify_HUD"			"Console and HUD"
+"TF_DemoSupport_Screens"			"Auto-save a scores screenshot at the end of a match"
 
 // PVE
 "TF_PVE_Combo"				"COMBO"
@@ -12814,6 +12856,8 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_sbox2014_archers_groundings"		"Archers Groundings" // ADD THE
 "TF_sbox2014_war_pants"		"Combat Slacks"
 "TF_sbox2014_toowoomba_tunic"		"Toowoomba Tunic" // ADD THE
+"TF_sbox2014_toowoomba_tunic_style0"		"Knight"
+"TF_sbox2014_toowoomba_tunic_style1"		"Peasant"
 "TF_sbox2014_sammy_cap"		"Sammy Cap" // ADD THE
 "TF_sbox2014_camo_headband"		"Deep Cover Operator" // ADD THE
 "TF_sbox2014_ticket_boy"		"Ticket Boy" // ADD THE
@@ -13058,6 +13102,8 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_bak_batarm"					"Batter's Bracers"
 "TF_bak_hood_of_sorrows"		"Hood of Sorrows" // ADD THE
 "TF_bak_fear_monger"			"Fear Monger"
+"TF_bak_fear_monger_style1"			"Style 1"
+"TF_bak_fear_monger_style2"			"Style 2"
 "TF_bak_pocket_villains"		"Pocket Villains"
 "TF_bak_caped_crusader"			"Caped Crusader" // ADD THE
 "TF_bak_caped_crusader_style1"		"Vigilante"
@@ -13096,6 +13142,8 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_dec15_chicago_overcoat"					"Chicago Overcoat"
 "TF_dec15_chicago_overcoat_desc"				""
 "TF_dec15_patriot_peak"						"Patriot Peak" // ADD THE
+"TF_dec15_patriot_peak_Style0"					"With Headphones"
+"TF_dec15_patriot_peak_Style1"					"Without Headphones"
 "TF_dec15_patriot_peak_desc"					""
 "TF_dec15_diplomat"							"Diplomat" // ADD THE
 "TF_dec15_diplomat_desc"						""
@@ -13111,6 +13159,38 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_dec15_a_hat_to_kill_for_desc"				""
 "TF_dec15_shin_shredders"					"Shin Shredders"
 "TF_dec15_shin_shredders_desc"					""
+
+"TF_may16_airdog"						"Airdog" // ADD THE
+"TF_may16_airdog_desc"					""
+"TF_may16_bedouin_bandana"				"Bedouin Bandana"
+"TF_may16_bedouin_bandana_desc"			""
+"TF_may16_heralds_helm"					"Herald's Helm"
+"TF_may16_heralds_helm_desc"			""
+"TF_may16_courtly_cuirass"				"Courtly Cuirass"
+"TF_may16_courtly_cuirass_desc"			""
+"TF_may16_squires_sabatons"				"Squire's Sabatons"
+"TF_may16_squires_sabatons_desc"		""
+"TF_may16_surgical_survivalist"			"Surgical Survivalist" // ADD THE
+"TF_may16_surgical_survivalist_desc"	""
+"TF_may16_skullcap"						"Dead Head" // ADD THE
+"TF_may16_skullcap_desc"				""
+"TF_may16_lurking_legionnaire"			"Lurking Legionnaire" // ADD THE
+"TF_may16_lurking_legionnaire_desc"		""
+"TF_may16_dayjogger"					"Dayjogger" // ADD THE
+"TF_may16_dayjogger_desc"				""
+"TF_may16_patriots_pouches"				"Patriot's Pouches"
+"TF_may16_patriots_pouches_style1"		"Normal"
+"TF_may16_patriots_pouches_style2"		"Camo"
+"TF_may16_patriots_pouches_desc"		""
+"TF_may16_dad_duds"						"Dad Duds"
+"TF_may16_dad_duds_desc"				""
+"TF_may16_gauzed_gaze"					"Gauzed Gaze" // ADD THE
+"TF_may16_gauzed_gaze_desc"				""
+"TF_may16_demos_dustcatcher"			"Demo's Dustcatcher" // ADD THE
+"TF_may16_demos_dustcatcher_desc"		""
+"TF_may16_scoped_spartan"				"Scoped Spartan" // ADD THE
+"TF_may16_scoped_spartan_desc"			""
+
 // END WORKSHOP ITEMS
 
 "TF_BreatherBag"					"Breather Bag"	// ADD THE

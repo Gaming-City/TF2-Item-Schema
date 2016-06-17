@@ -10000,6 +10000,41 @@
 				}
 			}
 		}
+		
+		"MayflowerCosmetics_collection"
+		{
+			"name"				"MayflowerCosmetics_collection"
+			"description"		"MayflowerCosmetics_collection_desc"
+			"items"
+			{
+				"ancient"
+				{
+					"Bedouin Bandana"						"10"
+					"The Dead Head"							"10"
+				}
+				"legendary"
+				{
+					"The Dayjogger"							"10"
+					"Dad Duds"								"10"
+				}
+				"mythical"
+				{
+					"Herald's Helm"							"10"
+					"The Lurking Legionnaire"				"10"
+					"The Gauzed Gaze"						"10"
+					"The Patriot's Pouches"					"10"
+				}
+				"rare"
+				{
+					"The Airdog"							"10"
+					"Courtly Cuirass"						"10"
+					"Squire's Sabatons"						"10"
+					"The Surgical Survivalist"				"10"
+					"The Demo's Dustcatcher"				"10"
+					"The Scoped Spartan"					"10"
+				}
+			}
+		}
 	} 
 	"operations"
 	{
@@ -15262,13 +15297,6 @@
 			"item_name"		"#TF_bak_fear_monger"
 			"item_description"		"#TF_bak_fear_monger_Desc"
 			"equip_region"		"pyro_head_replacement"
-			"visuals"
-			{
-				"player_bodygroups"
-				{
-					"head"		"1"
-				}
-			}
 			"image_inventory"		"backpack/workshop/player/items/pyro/bak_fear_monger/bak_fear_monger"
 			"capabilities"
 			{
@@ -15279,6 +15307,34 @@
 			"used_by_classes"
 			{
 				"pyro"		"1"
+			}
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"head"		"0"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/pyro/bak_fear_monger/bak_fear_monger.mdl"
+						"name"		"#TF_bak_fear_monger_style1"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"additional_hidden_bodygroups"
+						{
+							"head"		"1"
+						}
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/pyro/bak_fear_monger_s1/bak_fear_monger_s1.mdl"
+						"name"		"#TF_bak_fear_monger_style2"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+				}
 			}
 		}
 		"item_bak_arkham_cowl"
@@ -38352,12 +38408,73 @@
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"propername"	"1"
-			"image_inventory"	"backpack/player/items/soldier/fwk_soldier_seacaptain"
-			"model_player"	"models/player/items/soldier/fwk_soldier_seacaptain.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain"
 			"drop_type"		"drop"
+			"model_player_per_class"
+			{
+				"scout"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_scout.mdl"
+				"sniper"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_sniper.mdl"
+				"soldier"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_soldier.mdl"
+				"Demoman"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_demo.mdl"
+				"medic"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_medic.mdl"
+				"heavy"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_heavy.mdl"
+				"pyro"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_pyro.mdl"
+				"spy"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_spy.mdl"
+				"engineer"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_engineer.mdl"
+			}
 			"used_by_classes"
 			{
-				"soldier"	"1"
+				"scout"		"1"
+				"sniper"		"1"
+				"soldier"		"1"
+				"Demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"
+						{
+							"scout"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_scout.mdl"
+							"sniper"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_sniper.mdl"
+							"soldier"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_soldier.mdl"
+							"Demoman"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_demo.mdl"
+							"medic"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_medic.mdl"
+							"heavy"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_heavy.mdl"
+							"pyro"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_pyro.mdl"
+							"spy"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_spy.mdl"
+							"engineer"		"models/workshop/player/items/all_class/fwk_seacaptain/fwk_seacaptain_engineer.mdl"
+						}
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_SoldierHat1_Style0"
+					}
+					"1"
+					{
+						"model_player_per_class"
+						{
+							"scout"		"models/workshop/player/items/all_class/fwk_seacaptain_s2/fwk_seacaptain_s2_scout.mdl"
+							"sniper"		"models/workshop/player/items/all_class/fwk_seacaptain_s2/fwk_seacaptain_s2_sniper.mdl"
+							"soldier"		"models/workshop/player/items/all_class/fwk_seacaptain_s2/fwk_seacaptain_s2_soldier.mdl"
+							"Demoman"		"models/workshop/player/items/all_class/fwk_seacaptain_s2/fwk_seacaptain_s2_demo.mdl"
+							"medic"		"models/workshop/player/items/all_class/fwk_seacaptain_s2/fwk_seacaptain_s2_medic.mdl"
+							"heavy"		"models/workshop/player/items/all_class/fwk_seacaptain_s2/fwk_seacaptain_s2_heavy.mdl"
+							"pyro"		"models/workshop/player/items/all_class/fwk_seacaptain_s2/fwk_seacaptain_s2_pyro.mdl"
+							"spy"		"models/workshop/player/items/all_class/fwk_seacaptain_s2/fwk_seacaptain_s2_spy.mdl"
+							"engineer"		"models/workshop/player/items/all_class/fwk_seacaptain_s2/fwk_seacaptain_s2_engineer.mdl"
+						}
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_SoldierHat1_Style1"
+					}
+				}
 			}
 		}
 		"612"
@@ -39986,7 +40103,7 @@
 			"first_sale_date"	"2011/12/19"
 			"item_class"	"tf_wearable"
 			"loadondemand" "1"
-			"craft_class"	"hat"			
+			"craft_class"	"hat"
 			"craft_material_type"	"hat"
 			"capabilities"
 			{
@@ -40003,10 +40120,10 @@
 			"equip_region"	"hat"
 			"item_quality"	"unique"
 			"propername" "1"
-			"image_inventory"	"backpack/player/items/scout/xms_scout_elf_hat"
+			"image_inventory"	"backpack/workshop/player/items/scout/xms_scout_elf_hat/xms_scout_elf_hat"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/scout/xms_scout_elf_hat.mdl"
+			"model_player"	"models/workshop/player/items/scout/xms_scout_elf_hat/xms_scout_elf_hat.mdl"
 			"drop_type"	"none"
 			"used_by_classes"
 			{
@@ -40018,6 +40135,23 @@
 				{
 					"hat"			"1"
 					"headphones"	"1"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"model_player"	"models/workshop/player/items/scout/xms_scout_elf_hat/xms_scout_elf_hat.mdl"
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_TheElf_Style0"
+					}
+					"1"
+					{
+						"model_player"	"models/workshop/player/items/scout/xms_scout_elf_hat_style1/xms_scout_elf_hat_style1.mdl"
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_TheElf_Style1"
+					}
 				}
 			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
@@ -40049,10 +40183,10 @@
 			"equip_region"	"feet"
 			"item_quality"	"unique"
 			"propername" "1"
-			"image_inventory"	"backpack/player/items/scout/xms_scout_elf_sneakers"
+			"image_inventory"	"backpack/workshop/player/items/scout/xms_scout_elf_sneakers/xms_scout_elf_sneakers"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/player/items/scout/xms_scout_elf_sneakers.mdl"
+			"model_player"	"models/workshop/player/items/scout/xms_scout_elf_sneakers/xms_scout_elf_sneakers.mdl"
 			"drop_type"	"none"
 			"used_by_classes"
 			{
@@ -40071,6 +40205,23 @@
 				"player_bodygroups"
 				{
 					"shoes_socks"			"1"
+				}
+				"styles"
+				{
+					"0"
+					{
+						"model_player"	"models/workshop/player/items/scout/xms_scout_elf_sneakers/xms_scout_elf_sneakers.mdl"
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_Scout_Elf_Boots_Style0"
+					}
+					"1"
+					{
+						"model_player"	"models/workshop/player/items/scout/xms_scout_elf_sneakers_style1/xms_scout_elf_sneakers_style1.mdl"
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_Scout_Elf_Boots_Style1"
+					}
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
@@ -49368,7 +49519,7 @@
 			"drop_type"	"drop"
 			"item_name"	"#TF_ToughStuffMuffs"
 			"item_description"	"#TF_ToughStuffMuffs_Desc"
-			"image_inventory"	"backpack/player/items/all_class/all_earwarmer_demo"
+			"image_inventory"	"backpack/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1"
 			"capabilities"
 			{
 				"paintable"	"1"
@@ -49376,27 +49527,27 @@
 			}
 			"model_player_per_class"
 			{
-				"soldier"	"models/player/items/all_class/all_earwarmer_soldier.mdl"
-				"demoman"	"models/player/items/all_class/all_earwarmer_demo.mdl"
-				"pyro"		"models/player/items/all_class/all_earwarmer_pyro.mdl"
-				"engineer"	"models/player/items/all_class/all_earwarmer_engy.mdl"
-				"heavy"		"models/player/items/all_class/all_earwarmer_heavy.mdl"
-				"scout"		"models/player/items/all_class/all_earwarmer_scout.mdl"
-				"medic"		"models/player/items/all_class/all_earwarmer_medic.mdl"
-				"sniper"	"models/player/items/all_class/all_earwarmer_sniper.mdl"
-				"spy"		"models/player/items/all_class/all_earwarmer_spy.mdl"
+				"scout"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_scout.mdl"
+				"sniper"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_sniper.mdl"
+				"soldier"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_soldier.mdl"
+				"Demoman"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_demo.mdl"
+				"medic"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_medic.mdl"
+				"heavy"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_heavy.mdl"
+				"pyro"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_pyro.mdl"
+				"spy"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_spy.mdl"
+				"engineer"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_engineer.mdl"
 			}
 			"used_by_classes"
 			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"spy" "1"
-				"engineer" "1"
-				"pyro" "1"
+				"scout"		"1"
+				"sniper"		"1"
+				"soldier"		"1"
+				"Demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
 			}
 			"visuals"
 			{
@@ -49409,15 +49560,75 @@
 				{
 					"0"
 					{
+						"model_player_per_class"
+						{
+							"scout"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_scout.mdl"
+							"sniper"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_sniper.mdl"
+							"soldier"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_soldier.mdl"
+							"Demoman"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_demo.mdl"
+							"medic"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_medic.mdl"
+							"heavy"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_heavy.mdl"
+							"pyro"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_pyro.mdl"
+							"spy"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_spy.mdl"
+							"engineer"		"models/workshop/player/items/all_class/all_earmuffs_style1/all_earmuffs_style1_engineer.mdl"
+						}
 						"skin_red"	"0"
 						"skin_blu"	"1"
 						"name"	"#TF_ToughStuffMuffs_Style0"
 					}
 					"1"
 					{
-						"skin_red"	"2"
-						"skin_blu"	"3"
+						"model_player_per_class"
+						{
+							"scout"		"models/workshop/player/items/all_class/all_earmuffs_style2/all_earmuffs_style2_scout.mdl"
+							"sniper"		"models/workshop/player/items/all_class/all_earmuffs_style2/all_earmuffs_style2_sniper.mdl"
+							"soldier"		"models/workshop/player/items/all_class/all_earmuffs_style2/all_earmuffs_style2_soldier.mdl"
+							"Demoman"		"models/workshop/player/items/all_class/all_earmuffs_style2/all_earmuffs_style2_demo.mdl"
+							"medic"		"models/workshop/player/items/all_class/all_earmuffs_style2/all_earmuffs_style2_medic.mdl"
+							"heavy"		"models/workshop/player/items/all_class/all_earmuffs_style2/all_earmuffs_style2_heavy.mdl"
+							"pyro"		"models/workshop/player/items/all_class/all_earmuffs_style2/all_earmuffs_style2_pyro.mdl"
+							"spy"		"models/workshop/player/items/all_class/all_earmuffs_style2/all_earmuffs_style2_spy.mdl"
+							"engineer"		"models/workshop/player/items/all_class/all_earmuffs_style2/all_earmuffs_style2_engineer.mdl"
+						}
+						"skin_red"	"0"
+						"skin_blu"	"1"
 						"name"	"#TF_ToughStuffMuffs_Style1"
+					}
+					"2"
+					{
+						"model_player_per_class"
+						{
+							"scout"		"models/workshop/player/items/all_class/all_earmuffs_style3/all_earmuffs_style3_scout.mdl"
+							"sniper"		"models/workshop/player/items/all_class/all_earmuffs_style3/all_earmuffs_style3_sniper.mdl"
+							"soldier"		"models/workshop/player/items/all_class/all_earmuffs_style3/all_earmuffs_style3_soldier.mdl"
+							"Demoman"		"models/workshop/player/items/all_class/all_earmuffs_style3/all_earmuffs_style3_demo.mdl"
+							"medic"		"models/workshop/player/items/all_class/all_earmuffs_style3/all_earmuffs_style3_medic.mdl"
+							"heavy"		"models/workshop/player/items/all_class/all_earmuffs_style3/all_earmuffs_style3_heavy.mdl"
+							"pyro"		"models/workshop/player/items/all_class/all_earmuffs_style3/all_earmuffs_style3_pyro.mdl"
+							"spy"		"models/workshop/player/items/all_class/all_earmuffs_style3/all_earmuffs_style3_spy.mdl"
+							"engineer"		"models/workshop/player/items/all_class/all_earmuffs_style3/all_earmuffs_style3_engineer.mdl"
+						}
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_ToughStuffMuffs_Style2"
+					}
+					"3"
+					{
+						"model_player_per_class"
+						{
+							"scout"		"models/workshop/player/items/all_class/all_earmuffs_style4/all_earmuffs_style4_scout.mdl"
+							"sniper"		"models/workshop/player/items/all_class/all_earmuffs_style4/all_earmuffs_style4_sniper.mdl"
+							"soldier"		"models/workshop/player/items/all_class/all_earmuffs_style4/all_earmuffs_style4_soldier.mdl"
+							"Demoman"		"models/workshop/player/items/all_class/all_earmuffs_style4/all_earmuffs_style4_demo.mdl"
+							"medic"		"models/workshop/player/items/all_class/all_earmuffs_style4/all_earmuffs_style4_medic.mdl"
+							"heavy"		"models/workshop/player/items/all_class/all_earmuffs_style4/all_earmuffs_style4_heavy.mdl"
+							"pyro"		"models/workshop/player/items/all_class/all_earmuffs_style4/all_earmuffs_style4_pyro.mdl"
+							"spy"		"models/workshop/player/items/all_class/all_earmuffs_style4/all_earmuffs_style4_spy.mdl"
+							"engineer"		"models/workshop/player/items/all_class/all_earmuffs_style4/all_earmuffs_style4_engineer.mdl"
+						}
+						"skin_red"	"0"
+						"skin_blu"	"1"
+						"name"	"#TF_ToughStuffMuffs_Style3"
 					}
 				}
 			}
@@ -58960,15 +59171,34 @@
 			"equip_region"		"hat"
 			"propername"		"1"
 			"drop_type"		"drop"
-			"image_inventory"		"backpack/workshop/player/items/sniper/riflemans_rallycap/riflemans_rallycap"
+			"image_inventory"		"backpack/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap"
 			"capabilities"
 			{
 				"paintable"		"1"
 			}
-			"model_player"		"models/workshop/player/items/sniper/riflemans_rallycap/riflemans_rallycap.mdl"
+			"model_player_per_class"
+			{
+				"scout"		"models/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_scout.mdl"
+				"sniper"		"models/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_sniper.mdl"
+				"soldier"		"models/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_soldier.mdl"
+				"Demoman"		"models/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_demo.mdl"
+				"medic"		"models/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_medic.mdl"
+				"heavy"		"models/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_heavy.mdl"
+				"pyro"		"models/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_pyro.mdl"
+				"spy"		"models/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_spy.mdl"
+				"engineer"		"models/workshop/player/items/all_class/riflemans_rallycap/riflemans_rallycap_engineer.mdl"
+			}
 			"used_by_classes"
 			{
+				"scout"		"1"
 				"sniper"		"1"
+				"soldier"		"1"
+				"Demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
 			}
 		}
 		"30068"
@@ -60316,18 +60546,38 @@
 				"player_bodygroups"
 				{
 					"hat"		"1"
+					"headphones"		"1"
 				}
 			}
-			"image_inventory"		"backpack/workshop/player/items/soldier/jul13_soldier_fedora/jul13_soldier_fedora"
+			"image_inventory"		"backpack/workshop/player/items/all_class/jul13_fedora/jul13_fedora"
 			"capabilities"
 			{
 				"paintable"		"1"
 				"can_craft_count"		"1"
 			}
-			"model_player"		"models/workshop/player/items/soldier/jul13_soldier_fedora/jul13_soldier_fedora.mdl"
+			"model_player_per_class"
+			{
+				"scout"		"models/workshop/player/items/all_class/jul13_fedora/jul13_fedora_scout.mdl"
+				"sniper"		"models/workshop/player/items/all_class/jul13_fedora/jul13_fedora_sniper.mdl"
+				"soldier"		"models/workshop/player/items/all_class/jul13_fedora/jul13_fedora_soldier.mdl"
+				"Demoman"		"models/workshop/player/items/all_class/jul13_fedora/jul13_fedora_demo.mdl"
+				"medic"		"models/workshop/player/items/all_class/jul13_fedora/jul13_fedora_medic.mdl"
+				"heavy"		"models/workshop/player/items/all_class/jul13_fedora/jul13_fedora_heavy.mdl"
+				"pyro"		"models/workshop/player/items/all_class/jul13_fedora/jul13_fedora_pyro.mdl"
+				"spy"		"models/workshop/player/items/all_class/jul13_fedora/jul13_fedora_spy.mdl"
+				"engineer"		"models/workshop/player/items/all_class/jul13_fedora/jul13_fedora_engineer.mdl"
+			}
 			"used_by_classes"
 			{
+				"scout"		"1"
+				"sniper"		"1"
 				"soldier"		"1"
+				"Demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
 			}
 		}
 		"30120"
@@ -61700,15 +61950,29 @@
 			"item_name"		"#TF_fall2013_weight_room_warmer"
 			"item_description"		"#TF_fall2013_weight_room_warmer_Desc"
 			"equip_region"		"shirt"
-			"image_inventory"		"backpack/workshop/player/items/heavy/fall2013_weight_room_warmer/fall2013_weight_room_warmer"
+			"image_inventory"		"backpack/workshop/player/items/all_class/fall2013_weight_room_warmer/fall2013_weight_room_warmer"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"dogtags"		"1"
+				}
+			}
 			"capabilities"
 			{
 				"paintable"		"1"
 				"can_craft_count"		"1"
 			}
-			"model_player"		"models/workshop/player/items/heavy/fall2013_weight_room_warmer/fall2013_weight_room_warmer.mdl"
+			"model_player_per_class"
+			{
+				"scout"		"models/workshop/player/items/all_class/fall2013_weight_room_warmer/fall2013_weight_room_warmer_scout.mdl"
+				"Demoman"		"models/workshop/player/items/all_class/fall2013_weight_room_warmer/fall2013_weight_room_warmer_demo.mdl"
+				"heavy"		"models/workshop/player/items/all_class/fall2013_weight_room_warmer/fall2013_weight_room_warmer_heavy.mdl"
+			}
 			"used_by_classes"
 			{
+				"scout"		"1"
+				"Demoman"		"1"
 				"heavy"		"1"
 			}
 		}
@@ -64932,15 +65196,20 @@
 			"item_name"		"#TF_xms2013_pyro_arctic_suit"
 			"item_description"		"#TF_xms2013_pyro_arctic_suit_Desc"
 			"equip_region"		"shirt"
-			"image_inventory"		"backpack/workshop/player/items/pyro/xms2013_pyro_arctic_suit/xms2013_pyro_arctic_suit"
+			"image_inventory"		"backpack/workshop/player/items/all_class/xms2013_arctic_suit/xms2013_arctic_suit"
 			"propername"		"1"
 			"capabilities"
 			{
 				"paintable"		"1"
 			}
-			"model_player"		"models/workshop/player/items/pyro/xms2013_pyro_arctic_suit/xms2013_pyro_arctic_suit.mdl"
+			"model_player_per_class"
+			{
+				"Demoman"		"models/workshop/player/items/all_class/xms2013_arctic_suit/xms2013_arctic_suit_demo.mdl"
+				"pyro"		"models/workshop/player/items/all_class/xms2013_arctic_suit/xms2013_arctic_suit_pyro.mdl"
+			}
 			"used_by_classes"
 			{
+				"Demoman"		"1"
 				"pyro"		"1"
 			}
 		}
@@ -66826,16 +67095,49 @@
 			"item_name"		"#TF_sbox2014_toowoomba_tunic"
 			"item_description"		"#TF_sbox2014_toowoomba_tunic_Desc"
 			"equip_region"		"shirt"
-			"image_inventory"		"backpack/workshop/player/items/sniper/sbox2014_toowoomba_tunic/sbox2014_toowoomba_tunic"
+			"image_inventory"		"backpack/workshop/player/items/all_class/sbox2014_toowoomba_tunic/sbox2014_toowoomba_tunic"
 			"capabilities"
 			{
 				"can_craft_count"		"1"
 				"paintable"		"1"
 			}
-			"model_player"		"models/workshop/player/items/sniper/sbox2014_toowoomba_tunic/sbox2014_toowoomba_tunic.mdl"
+			"model_player_per_class"
+			{
+				"sniper"		"models/workshop/player/items/all_class/sbox2014_toowoomba_tunic/sbox2014_toowoomba_tunic_sniper.mdl"
+				"Demoman"		"models/workshop/player/items/all_class/sbox2014_toowoomba_tunic/sbox2014_toowoomba_tunic_demo.mdl"
+			}
 			"used_by_classes"
 			{
 				"sniper"		"1"
+				"Demoman"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player_per_class"
+						{
+							"sniper"		"models/workshop/player/items/all_class/sbox2014_toowoomba_tunic/sbox2014_toowoomba_tunic_sniper.mdl"
+							"Demoman"		"models/workshop/player/items/all_class/sbox2014_toowoomba_tunic/sbox2014_toowoomba_tunic_demo.mdl"
+						}
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_sbox2014_toowoomba_tunic_style0"
+					}
+					"1"
+					{
+						"model_player_per_class"
+						{
+							"sniper"		"models/workshop/player/items/all_class/sbox2014_toowoomba_tunic_style1/sbox2014_toowoomba_tunic_style1_sniper.mdl"
+							"Demoman"		"models/workshop/player/items/all_class/sbox2014_toowoomba_tunic_style1/sbox2014_toowoomba_tunic_style1_demo.mdl"
+						}
+						"skin_red"		"0"
+						"skin_blu"		"1"
+						"name"		"#TF_sbox2014_toowoomba_tunic_style1"
+					}
+				}
 			}
 		}
 		"30374"
@@ -70935,13 +71237,25 @@
 			"model_player_per_class"
 			{
 				"scout"		"models/workshop/player/items/all_class/dec2014_copilot_2014/dec2014_copilot_2014_scout.mdl"
+				"sniper"		"models/workshop/player/items/all_class/dec2014_copilot_2014/dec2014_copilot_2014_sniper.mdl"
 				"soldier"		"models/workshop/player/items/all_class/dec2014_copilot_2014/dec2014_copilot_2014_soldier.mdl"
+				"Demoman"		"models/workshop/player/items/all_class/dec2014_copilot_2014/dec2014_copilot_2014_demo.mdl"
+				"medic"		"models/workshop/player/items/all_class/dec2014_copilot_2014/dec2014_copilot_2014_medic.mdl"
+				"heavy"		"models/workshop/player/items/all_class/dec2014_copilot_2014/dec2014_copilot_2014_heavy.mdl"
+				"pyro"		"models/workshop/player/items/all_class/dec2014_copilot_2014/dec2014_copilot_2014_pyro.mdl"
+				"spy"		"models/workshop/player/items/all_class/dec2014_copilot_2014/dec2014_copilot_2014_spy.mdl"
 				"engineer"		"models/workshop/player/items/all_class/dec2014_copilot_2014/dec2014_copilot_2014_engineer.mdl"
 			}
 			"used_by_classes"
 			{
 				"scout"		"1"
+				"sniper"		"1"
 				"soldier"		"1"
+				"Demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
 				"engineer"		"1"
 			}
 			"static_attrs"
@@ -72249,11 +72563,15 @@
 					"0"
 					{
 						"model_player"		"models/workshop/player/items/engineer/cc_summer2015_sheriffs_stetson/cc_summer2015_sheriffs_stetson.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
 						"name"		"#TF_cc_summer2015_sheriffs_stetson_style1"
 					}
 					"1"
 					{
 						"model_player"		"models/workshop/player/items/engineer/cc_summer2015_sheriffs_stetson_style1/cc_summer2015_sheriffs_stetson_style1.mdl"
+						"skin_red"		"0"
+						"skin_blu"		"1"
 						"name"		"#TF_cc_summer2015_sheriffs_stetson_style2"
 					}
 				}
@@ -72728,16 +73046,35 @@
 			"item_name"		"#TF_invasion_universal_translator"
 			"item_description"		"#TF_invasion_universal_translator_Desc"
 			"equip_region"		"hat"
-			"image_inventory"		"backpack/workshop/player/items/demo/invasion_universal_translator/invasion_universal_translator"
+			"image_inventory"		"backpack/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator"
 			"capabilities"
 			{
 				"can_craft_count"		"1"
 				"paintable"		"1"
 			}
-			"model_player"		"models/workshop/player/items/demo/invasion_universal_translator/invasion_universal_translator.mdl"
+			"model_player_per_class"
+			{
+				"scout"		"models/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_scout.mdl"
+				"sniper"		"models/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_sniper.mdl"
+				"soldier"		"models/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_soldier.mdl"
+				"Demoman"		"models/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_demo.mdl"
+				"medic"		"models/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_medic.mdl"
+				"heavy"		"models/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_heavy.mdl"
+				"pyro"		"models/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_pyro.mdl"
+				"spy"		"models/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_spy.mdl"
+				"engineer"		"models/workshop/player/items/all_class/invasion_universal_translator/invasion_universal_translator_engineer.mdl"
+			}
 			"used_by_classes"
 			{
-				"demoman"		"1"
+				"scout"		"1"
+				"sniper"		"1"
+				"soldier"		"1"
+				"Demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
 			}
 		}
 		"30661"
@@ -72792,7 +73129,7 @@
 			"prefab"		"no_craft misc marketable"
 			"item_name"		"#TF_invasion_jupiter_jetpack"
 			"item_description"		"#TF_invasion_jupiter_jetpack_Desc"
-			"equip_region"		"Back"
+			"equip_region"		"back"
 			"item_type_name"		"#TF_Wearable_Jetpack"
 			"visuals"
 			{
@@ -74509,7 +74846,7 @@
 			"item_name"		"#TF_dec15_winter_backup"
 			"item_description"		"#TF_dec15_winter_backup_Desc"
 			"item_type_name"		"#TF_Wearable_Backpack"
-			"equip_region"		"Back"
+			"equip_region"		"back"
 			"image_inventory"		"backpack/workshop/player/items/engineer/dec15_winter_backup/dec15_winter_backup"
 			"capabilities"
 			{
@@ -74691,6 +75028,352 @@
 			"used_by_classes"
 			{
 				"medic"		"1"
+			}
+		}
+		"30767"
+		{
+			"name"		"The Airdog"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_may16_airdog"
+			"item_description"		"#TF_may16_airdog_Desc"
+			"equip_region"		"hat"
+			"propername"		"1"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/scout/snowboard_hat/snowboard_hat"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/snowboard_hat/snowboard_hat.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"30768"
+		{
+			"name"		"Bedouin Bandana"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_may16_bedouin_bandana"
+			"item_description"		"#TF_may16_bedouin_bandana_Desc"
+			"equip_region"		"hat"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"dogtags"		"1"
+					"hat"		"1"
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/all_class/angsty_hood/angsty_hood"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player_per_class"
+			{
+				"scout"		"models/workshop/player/items/all_class/angsty_hood/angsty_hood_scout.mdl"
+				"sniper"		"models/workshop/player/items/all_class/angsty_hood/angsty_hood_sniper.mdl"
+				"soldier"		"models/workshop/player/items/all_class/angsty_hood/angsty_hood_soldier.mdl"
+				"Demoman"		"models/workshop/player/items/all_class/angsty_hood/angsty_hood_demo.mdl"
+				"medic"		"models/workshop/player/items/all_class/angsty_hood/angsty_hood_medic.mdl"
+				"heavy"		"models/workshop/player/items/all_class/angsty_hood/angsty_hood_heavy.mdl"
+				"pyro"		"models/workshop/player/items/all_class/angsty_hood/angsty_hood_pyro.mdl"
+				"spy"		"models/workshop/player/items/all_class/angsty_hood/angsty_hood_spy.mdl"
+				"engineer"		"models/workshop/player/items/all_class/angsty_hood/angsty_hood_engineer.mdl"
+			}
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"		"1"
+				"soldier"		"1"
+				"Demoman"		"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro"		"1"
+				"spy"		"1"
+				"engineer"		"1"
+			}
+		}
+		"30769"
+		{
+			"name"		"Herald's Helm"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_may16_heralds_helm"
+			"item_description"		"#TF_may16_heralds_helm_Desc"
+			"equip_region"		"whole_head"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"hat"		"1"
+					"headphones"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/scout/knight_helmet/knight_helmet"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/knight_helmet/knight_helmet.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"30770"
+		{
+			"name"		"Courtly Cuirass"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_may16_courtly_cuirass"
+			"item_description"		"#TF_may16_courtly_cuirass_Desc"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/scout/medieval_glory_armor/medieval_glory_armor"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/medieval_glory_armor/medieval_glory_armor.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"30771"
+		{
+			"name"		"Squire's Sabatons"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_may16_squires_sabatons"
+			"item_description"		"#TF_may16_squires_sabatons_Desc"
+			"equip_region"		"feet"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"shoes_socks"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/scout/medieval_glory_boots/medieval_glory_boots"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/scout/medieval_glory_boots/medieval_glory_boots.mdl"
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		"30773"
+		{
+			"name"		"The Surgical Survivalist"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_may16_surgical_survivalist"
+			"item_description"		"#TF_may16_surgical_survivalist_Desc"
+			"equip_region"		"pants"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/medic/cardiologists_camo/cardiologists_camo"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/medic/cardiologists_camo/cardiologists_camo.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+		}
+		"30775"
+		{
+			"name"		"The Dead Head"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_may16_skullcap"
+			"item_description"		"#TF_may16_skullcap_Desc"
+			"equip_region"		"face"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/spy/skullmask/skullmask"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/spy/skullmask/skullmask.mdl"
+			"used_by_classes"
+			{
+				"spy"		"1"
+			}
+		}
+		"30777"
+		{
+			"name"		"The Lurking Legionnaire"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_may16_lurking_legionnaire"
+			"item_description"		"#TF_may16_lurking_legionnaire_Desc"
+			"equip_region"		"shirt"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/spy/majors_mark/majors_mark"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/spy/majors_mark/majors_mark.mdl"
+			"used_by_classes"
+			{
+				"spy"		"1"
+			}
+		}
+		"30779"
+		{
+			"name"		"The Dayjogger"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_may16_dayjogger"
+			"item_description"		"#TF_may16_dayjogger_Desc"
+			"equip_region"		"hat"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/demo/vampire_shades/vampire_shades"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/demo/vampire_shades/vampire_shades.mdl"
+			"used_by_classes"
+			{
+				"Demoman"		"1"
+			}
+		}
+		"30780"
+		{
+			"name"		"The Patriot's Pouches"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_may16_patriots_pouches"
+			"item_description"		"#TF_may16_patriots_pouches_Desc"
+			"equip_region"		"shirt"
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"grenades"		"1"
+				}
+			}
+			"image_inventory"		"backpack/workshop/player/items/soldier/shooters_supplies/shooters_supplies"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/soldier/shooters_supplies/shooters_supplies.mdl"
+			"used_by_classes"
+			{
+				"soldier"		"1"
+			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"		"models/workshop/player/items/soldier/shooters_supplies/shooters_supplies.mdl"
+						"name"		"#TF_may16_patriots_pouches_style1"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+					"1"
+					{
+						"model_player"		"models/workshop/player/items/soldier/shooters_supplies_style1/shooters_supplies_style1.mdl"
+						"name"		"#TF_may16_patriots_pouches_style2"
+						"skin_red"		"0"
+						"skin_blu"		"1"
+					}
+				}
+			}
+		}
+		"30785"
+		{
+			"name"		"Dad Duds"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_may16_dad_duds"
+			"item_description"		"#TF_may16_dad_duds_Desc"
+			"equip_region"		"shirt"
+			"image_inventory"		"backpack/workshop/player/items/engineer/all_work_and_no_plaid/all_work_and_no_plaid"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/engineer/all_work_and_no_plaid/all_work_and_no_plaid.mdl"
+			"used_by_classes"
+			{
+				"engineer"		"1"
+			}
+		}
+		"30786"
+		{
+			"name"		"The Gauzed Gaze"
+			"prefab"		"no_craft hat marketable"
+			"item_name"		"#TF_may16_gauzed_gaze"
+			"item_description"		"#TF_may16_gauzed_gaze_Desc"
+			"equip_region"		"whole_head"
+			"image_inventory"		"backpack/workshop/player/items/medic/surgical_stare/surgical_stare"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/medic/surgical_stare/surgical_stare.mdl"
+			"used_by_classes"
+			{
+				"medic"		"1"
+			}
+		}
+		"30788"
+		{
+			"name"		"The Demo's Dustcatcher"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_may16_demos_dustcatcher"
+			"item_description"		"#TF_may16_demos_dustcatcher_Desc"
+			"equip_region"		"demoman_collar"
+			"propername"		"1"
+			"image_inventory"		"backpack/workshop/player/items/demo/demolitionists_dustcatcher/demolitionists_dustcatcher"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+				"paintable"		"1"
+			}
+			"model_player"		"models/workshop/player/items/demo/demolitionists_dustcatcher/demolitionists_dustcatcher.mdl"
+			"used_by_classes"
+			{
+				"Demoman"		"1"
+			}
+		}
+		"30789"
+		{
+			"name"		"The Scoped Spartan"
+			"prefab"		"no_craft misc marketable"
+			"item_name"		"#TF_may16_scoped_spartan"
+			"item_description"		"#TF_may16_scoped_spartan_Desc"
+			"equip_region"		"sniper_vest"
+			"image_inventory"		"backpack/workshop/player/items/sniper/headhunters_wrap/headhunters_wrap"
+			"capabilities"
+			{
+				"can_craft_count"		"1"
+			}
+			"model_player"		"models/workshop/player/items/sniper/headhunters_wrap/headhunters_wrap.mdl"
+			"used_by_classes"
+			{
+				"sniper"		"1"
 			}
 		}
 
@@ -94032,8 +94715,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_OzFortress_Intermediate_First_Place"
 			"item_description"	"#TF_TournamentMedal_Season15"
-			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_prem_first/ozfortress_sixes_prem_first"
-			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_prem_first/ozfortress_sixes_prem_first_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_regular_first/ozfortress_sixes_regular_first"
+			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_regular_first/ozfortress_sixes_regular_first_demo.mdl"
 		}
 		"9095"
 		{		
@@ -94041,8 +94724,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_OzFortress_Intermediate_Second_Place"
 			"item_description"	"#TF_TournamentMedal_Season15"
-			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_prem_second/ozfortress_sixes_prem_second"
-			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_prem_second/ozfortress_sixes_prem_second_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_regular_second/ozfortress_sixes_regular_second"
+			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_regular_second/ozfortress_sixes_regular_second_demo.mdl"
 		}
 		"9096"
 		{		
@@ -94050,8 +94733,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_OzFortress_Intermediate_Third_Place"
 			"item_description"	"#TF_TournamentMedal_Season15"
-			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_prem_third/ozfortress_sixes_prem_third"
-			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_prem_third/ozfortress_sixes_prem_third_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_regular_third/ozfortress_sixes_regular_third"
+			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_regular_third/ozfortress_sixes_regular_third_demo.mdl"
 		}
 		"9097"
 		{		
@@ -94059,8 +94742,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_OzFortress_Intermediate_Participant"
 			"item_description"	"#TF_TournamentMedal_Season15"
-			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_prem_participant/ozfortress_sixes_prem_participant"
-			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_prem_participant/ozfortress_sixes_prem_participant_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_regular_participant/ozfortress_sixes_regular_participant"
+			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_regular_participant/ozfortress_sixes_regular_participant_demo.mdl"
 		}
 		"9098"
 		{		
@@ -94068,8 +94751,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_OzFortress_Open_First_Place"
 			"item_description"	"#TF_TournamentMedal_Season15"
-			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_prem_first/ozfortress_sixes_prem_first"
-			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_prem_first/ozfortress_sixes_prem_first_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_regular_first/ozfortress_sixes_regular_first"
+			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_regular_first/ozfortress_sixes_regular_first_demo.mdl"
 		}
 		"9099"
 		{		
@@ -94077,8 +94760,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_OzFortress_Open_Second_Place"
 			"item_description"	"#TF_TournamentMedal_Season15"
-			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_prem_second/ozfortress_sixes_prem_second"
-			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_prem_second/ozfortress_sixes_prem_second_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_regular_second/ozfortress_sixes_regular_second"
+			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_regular_second/ozfortress_sixes_regular_second_demo.mdl"
 		}
 		"9100"
 		{		
@@ -94086,8 +94769,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_OzFortress_Open_Third_Place"
 			"item_description"	"#TF_TournamentMedal_Season15"
-			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_prem_third/ozfortress_sixes_prem_third"
-			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_prem_third/ozfortress_sixes_prem_third_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_regular_third/ozfortress_sixes_regular_third"
+			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_regular_third/ozfortress_sixes_regular_third_demo.mdl"
 		}
 		"9101"
 		{		
@@ -94095,8 +94778,8 @@
 			"prefab"			"tournament_medal"
 			"item_name"			"#TF_TournamentMedal_OzFortress_Open_Participant"
 			"item_description"	"#TF_TournamentMedal_Season15"
-			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_prem_participant/ozfortress_sixes_prem_participant"
-			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_prem_participant/ozfortress_sixes_prem_participant_demo.mdl"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ozfortress_sixes_regular_participant/ozfortress_sixes_regular_participant"
+			"model_player"		"models/workshop/player/items/all_class/ozfortress_sixes_regular_participant/ozfortress_sixes_regular_participant_demo.mdl"
 		}
 		"9102"
 		{		
@@ -95698,9 +96381,552 @@
 				"engineer"		"models/workshop/player/items/all_class/etf2l_2014_highlander_participant/etf2l_2014_highlander_participant_engineer.mdl"
 			}
 		}
-
-
-
+		"9182"
+		{
+			"name"				"UGC Highlander Platinum Participant Season 17"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Platinum_Participant"
+			"item_description"	"#TF_TournamentMedal_Season17"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_platinum_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals_red"
+			{
+				"skin"	"4"
+			}
+		}
+		"9183"
+		{
+			"name"				"UGC Highlander Gold Participant Season 17"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Gold_Participant"
+			"item_description"	"#TF_TournamentMedal_Season17"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9184"
+		{
+			"name"				"UGC Highlander Silver Participant Season 17"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Silver_Participant"
+			"item_description"	"#TF_TournamentMedal_Season17"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_silver_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"9185"
+		{
+			"name"				"UGC Highlander Steel Participant Season 17"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Steel_Participant"
+			"item_description"	"#TF_TournamentMedal_Season17"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_steel_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"9186"
+		{
+			"name"				"UGC Highlander Iron Participant Season 17"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Iron_Participant"
+			"item_description"	"#TF_TournamentMedal_Season17"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_iron_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"9187"
+		{		
+			"name"				"UGC 6vs6 Platinum Participant Season 19"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC6v6_Platinum_Participant"
+			"item_description"	"#TF_TournamentMedal_Season19"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_platinum_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals_red"
+			{
+				"skin"	"4"
+			}
+		}
+		"9188"
+		{		
+			"name"				"UGC 6vs6 Gold Participant Season 19"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC6v6_Gold_Participant"
+			"item_description"	"#TF_TournamentMedal_Season19"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9189"
+		{		
+			"name"				"UGC 6vs6 Silver Participant Season 19"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC6v6_Silver_Participant"
+			"item_description"	"#TF_TournamentMedal_Season19"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_silver_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"9190"
+		{		
+			"name"				"UGC 6vs6 Steel Participant Season 19"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC6v6_Steel_Participant"
+			"item_description"	"#TF_TournamentMedal_Season19"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_steel_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"9191"
+		{		
+			"name"				"UGC 6vs6 Iron Participant Season 19"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC6v6_Iron_Participant"
+			"item_description"	"#TF_TournamentMedal_Season19"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_iron_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+  		"9192"
+		{
+			"name"				"UGC 4vs4 Gold Participant Season 6"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Gold_Participant"
+			"item_description"	"#TF_TournamentMedal_Season6"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9193"
+		{		
+			"name"				"UGC 4vs4 Silver Participant Season 6"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Silver_Participant"
+			"item_description"	"#TF_TournamentMedal_Season6"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_silver_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"9194"
+		{		
+			"name"				"UGC 4vs4 Steel Participant Season 6"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Steel_Participant"
+			"item_description"	"#TF_TournamentMedal_Season6"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_steel_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"9195"
+		{
+			"name"				"UGC 4vs4 Iron Participant Season 6"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Iron_Participant"
+			"item_description"	"#TF_TournamentMedal_Season6"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_iron_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"9196"
+		{
+			"name"				"UGC Highlander 1st Place Platinum Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Platinum_1st"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_01_platinum_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_01.mdl"
+			"visuals_red"
+			{
+				"skin"	"4"
+			}
+		}
+		"9197"
+		{
+			"name"				"UGC Highlander 2nd Place Platinum Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Platinum_2nd"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_02_platinum_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_02.mdl"
+			"visuals_red"
+			{
+				"skin"	"4"
+			}
+		}
+		"9198"
+		{
+			"name"				"UGC Highlander 3rd Place Platinum Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Platinum_3rd"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_03_platinum_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_03.mdl"
+			"visuals_red"
+			{
+				"skin"	"4"
+			}
+		}
+		"9199"
+		{
+			"name"				"UGC Highlander Platinum Participant Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Platinum_Participant"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_platinum_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals_red"
+			{
+				"skin"	"4"
+			}
+		}
+		"9200"
+		{
+			"name"				"UGC Highlander 1st Place Gold Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Gold_1st"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_01_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_01.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9201"
+		{
+			"name"				"UGC Highlander 2nd Place Gold Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Gold_2nd"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_02_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_02.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9202"
+		{
+			"name"				"UGC Highlander 3rd Place Gold Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Gold_3rd"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_03_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_03.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9203"
+		{
+			"name"				"UGC Highlander Gold Participant Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Gold_Participant"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9204"
+		{
+			"name"				"UGC Highlander 1st Place Silver Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Silver_1st"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_01_silver_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_01.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"9205"
+		{
+			"name"				"UGC Highlander 2nd Place Silver Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Silver_2nd"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_02_silver_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_02.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"9206"
+		{
+			"name"				"UGC Highlander 3rd Place Silver Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Silver_3rd"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_03_silver_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_03.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"9207"
+		{
+			"name"				"UGC Highlander Silver Participant Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Silver_Participant"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_silver_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"9208"
+		{
+			"name"				"UGC Highlander Steel Participant Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Steel_Participant"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_steel_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"9209"
+		{
+			"name"				"UGC Highlander Iron Participant Season 18"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Iron_Participant"
+			"item_description"	"#TF_TournamentMedal_Season18"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_iron_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"9210"
+		{
+			"name"				"UGC 6vs6 1st Place Gold Season 20"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Gold_1st"
+			"item_description"	"#TF_TournamentMedal_Season20"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_01_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_01.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9211"
+		{
+			"name"				"UGC 6vs6 2nd Place Gold Season 20"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Gold_2nd"
+			"item_description"	"#TF_TournamentMedal_Season20"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_02_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_02.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9212"
+		{
+			"name"				"UGC 6vs6 3rd Place Gold Season 20"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGCHL_Gold_3rd"
+			"item_description"	"#TF_TournamentMedal_Season20"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_03_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_03.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9213"
+		{		
+			"name"				"UGC 6vs6 Gold Participant Season 20"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC6v6_Gold_Participant"
+			"item_description"	"#TF_TournamentMedal_Season20"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9214"
+		{		
+			"name"				"UGC 6vs6 Silver Participant Season 20"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC6v6_Silver_Participant"
+			"item_description"	"#TF_TournamentMedal_Season20"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_silver_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"9215"
+		{		
+			"name"				"UGC 6vs6 Steel Participant Season 20"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC6v6_Steel_Participant"
+			"item_description"	"#TF_TournamentMedal_Season20"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_steel_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"9216"
+		{		
+			"name"				"UGC 6vs6 Iron Participant Season 20"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC6v6_Iron_Participant"
+			"item_description"	"#TF_TournamentMedal_Season20"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_iron_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
+		"9217"
+		{
+			"name"				"UGC 4vs4 1st Place Gold Season 7"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Gold_1st"
+			"item_description"	"#TF_TournamentMedal_Season7"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_01_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_01.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9218"
+		{
+			"name"				"UGC 4vs4 2nd Place Gold Season 7"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Gold_2nd"
+			"item_description"	"#TF_TournamentMedal_Season7"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_02_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_02.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9219"
+		{
+			"name"				"UGC 4vs4 3rd Place Gold Season 7"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Gold_3rd"
+			"item_description"	"#TF_TournamentMedal_Season7"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_rank_03_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_rank_03.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+  		"9220"
+		{
+			"name"				"UGC 4vs4 Gold Participant Season 7"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Gold_Participant"
+			"item_description"	"#TF_TournamentMedal_Season7"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_gold_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"3"
+			}
+		}
+		"9221"
+		{		
+			"name"				"UGC 4vs4 Silver Participant Season 7"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Silver_Participant"
+			"item_description"	"#TF_TournamentMedal_Season7"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_silver_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"2"
+			}
+		}
+		"9222"
+		{		
+			"name"				"UGC 4vs4 Steel Participant Season 7"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Steel_Participant"
+			"item_description"	"#TF_TournamentMedal_Season7"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_steel_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"1"
+			}
+		}
+		"9223"
+		{
+			"name"				"UGC 4vs4 Iron Participant Season 7"
+			"prefab"			"tournament_medal"
+			"item_name"			"#TF_TournamentMedal_UGC4v4_Iron_Participant"
+			"item_description"	"#TF_TournamentMedal_Season7"
+			"image_inventory"	"backpack/workshop/player/items/all_class/ugc_medals/ugc_season_participation_iron_medal"
+			"model_player"		"models/workshop/player/items/all_class/ugc_medals/ugc_participation.mdl"
+			"visuals"
+			{
+				"skin"	"0"
+			}
+		}
 
 
 
@@ -102763,7 +103989,53 @@
 				"restriction"	"halloween2015"
 			}
 		}
-	  		
+		
+		"5848"
+		{
+			"name"	"Mayflower Cosmetic Key" 
+			"first_sale_date"	"2016/05/10"
+			"prefab" "eventkey"
+			"item_name"			"#TF_Tool_MayflowerCosmeticKey"					
+			"item_description"	"#TF_Tool_MayflowerCosmeticKey_Desc"						
+			"ad_text"			"#TF_Tool_MayflowerCosmeticKey_AdText" 
+			"image_inventory"	"backpack/crafting/cosmetic_case_key_spring"
+			"tool"
+			{
+				"type"	"decoder_ring"
+				"usage_capabilities"
+				{
+					"decodable"	"1"
+				}
+				"restriction"	"mayflowercosmetic2016"
+			}
+		}
+		
+		"5849" 
+		{
+			"name"	"Mayflower Cosmetic Case"
+			"first_sale_date"	"2016/05/10"
+			"prefab" "eventcrate"
+			"tool"
+			{
+				"restriction"	"mayflowercosmetic2016"
+			}
+			"item_name"		"#TF_MayflowerCosmeticCase"
+			"item_description"	"#TF_MayflowerCosmeticCase_desc"
+			"ad_text"			"#TF_MayflowerCosmeticCase_AdText"
+			"image_inventory"	"backpack/player/items/crafting/cosmetic_case_spring"
+			"model_player"		"models/player/items/crafting/cosmetic_case.mdl"
+			"default_skin"		"2"
+			"static_attrs"
+			{
+				"set supply crate series"		"102"		
+				"hide crate series number"		"1"
+				"decoded by itemdefindex"		"5848"
+				"weapon_allow_inspect"			"1"
+			}
+			"event_desc_footer"			"#Footer_MayflowerCosmetics"
+			"collection_reference"		"MayflowerCosmetics_collection"
+		}	
+		
 		"5999"				
 		{
 			"name"	"Strange Part (Armory)"
@@ -120833,6 +122105,11 @@
 			"hide_lootlist"		"1"
 			"loot_list_collection"		"ToughBreakCosmetics_collection"
 		}
+		"mayflower_cosmetic_loot_list_102"
+		{
+			"hide_lootlist"		"1"
+			"loot_list_collection"		"MayflowerCosmetics_collection"
+		}
 	}
 	"revolving_loot_lists"
 	{
@@ -120934,6 +122211,7 @@
 		"tough_break_case_collection_01_lootlist_99"	"99"	
 		"tough_break_case_collection_02_lootlist_100"	"100"	
 		"tough_break_cosmetic_loot_list_101"			"101"	
+		"mayflower_cosmetic_loot_list_102"	"102"	
 		
 		
 		"kill_eater_set_demo_a"						"-1"
@@ -132236,7 +133514,7 @@
 				"localizedname"			"#TF_MountainLab"
 				"strangeprefixtoken"	"#TF_MountainLab_StrangePrefix"
 				"maptoken"				"Map Token Mountain Lab"
-				"authors"				"#cp_mountainlab"
+				"authors"				"#cp_mountainlab_authors"
 			}
 			"6"
 			{
