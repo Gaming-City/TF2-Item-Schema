@@ -1200,10 +1200,10 @@
 "TF_TournamentMedal_AFC_Div3_2nd"			"AsiaFortress Cup Division 3 2nd Place"
 "TF_TournamentMedal_AFC_Div3_3rd"			"AsiaFortress Cup Division 3 3rd Place"
 "TF_TournamentMedal_AFC_Div3_Participant"	"AsiaFortress Cup Division 3 Participant"
-"TF_TournamentMedal_AFC_MC_1st"				"AsiaFortress Cup Mercenaries Cup 1st Place"
-"TF_TournamentMedal_AFC_MC_2nd"				"AsiaFortress Cup Mercenaries Cup 2nd Place"
-"TF_TournamentMedal_AFC_MC_3rd"				"AsiaFortress Cup Mercenaries Cup 3rd Place"
-"TF_TournamentMedal_AFC_MC_Participant"		"AsiaFortress Cup Mercenaries Cup Participant"
+"TF_TournamentMedal_AFC_MC_1st"				"AsiaFortress Mercenaries Cup 1st Place"
+"TF_TournamentMedal_AFC_MC_2nd"				"AsiaFortress Mercenaries Cup 2nd Place"
+"TF_TournamentMedal_AFC_MC_3rd"				"AsiaFortress Mercenaries Cup 3rd Place"
+"TF_TournamentMedal_AFC_MC_Participant"		"AsiaFortress Mercenaries Cup Participant"
 																				   
 "TF_RETF2_EE22_6v6_Winner"					"RETF2 EE22 6v6 Winner"
 "TF_RETF2_EE22_6v6_Participant"				"RETF2 EE22 6v6 Participant"
@@ -6489,6 +6489,8 @@
 "ItemTypeDescKillEaterAltv2"	"     %s2%s3: %s1" // maps to s3/s4/s5 above. Example: "(Critical Kills)(): (8129)"
 "ItemTypeDescStrangeFilterSubStr"	" (only %s1)"
 
+"ItemTypeDescStrangeFilterCompetitive"	"Competitive"
+
 "ItemTypeDescCustomLevelString_MvMTour"		"Tour No. %s1 %s2"	// s1 is the level number, s2 is the item type. Example: "Tour No. 3 Rocket Launcher"
 "ItemTypeDescCustomLevelString_MapStamp"	"Contributions: %s1 - Playtime: %s2 hours"	// s1 is the item type, s2 is the number of contributions
 
@@ -10338,7 +10340,7 @@
 "TF_MM_Abandon_Title"			"Warning!"
 "TF_MM_Abandon"					"Abandoning your team will result in a matchmaking ban for a significant period of time."
 "TF_MM_Abandon_Ban"				"Abandoning your team will result in a matchmaking ban for a significant period of time."
-"TF_MM_Abandon_NoPenalty"		"Repeatedly abandoning games will result in substantial increases to the length of your matchmaking ban."
+"TF_MM_Abandon_NoPenalty"		"You will not be able to rejoin this match."
 "TF_MM_Rejoin_Title"			"Game In Progress"
 "TF_MM_Rejoin_AbandonText"		"Game in progress found.  Rejoin or Abandon?\n\nAbandoning your team will result in a matchmaking ban for a significant period of time."
 "TF_MM_Rejoin_AbandonText_NoPenalty"		"Game in progress found.  Rejoin or Abandon?\n\nRepeatedly abandoning games will result in substantial increases to the length of your matchmaking ban."
@@ -11511,7 +11513,7 @@
 "TF_Casual_Welcome_Title"				"Welcome to Casual Matchmaking!"
 "TF_Casual_Welcome_Subtitle"			"Just a few things before you get you started..."
 "TF_Casual_Welcome_Section_One_Title"	"About Casual Play"
-"TF_Casual_Welcome_Section_One_Text"	"	When you queue up for a casual match, you will be matched into a 12v12 game based on the game modes you’ve selected.  You will earn experience, levels, and badges over time based on your personal performance."
+"TF_Casual_Welcome_Section_One_Text"	"  When you queue up for a casual match, you will be matched into a 12v12 game based on the game modes you’ve selected.  You will earn experience, levels, and badges over time based on your personal performance."
 "TF_Casual_Welcome_Section_Two_Title"	"Abandoning Casual Matches"
 "TF_Casual_Welcome_Section_Two_Text"	"  Abandoning your teammates (leaving the server) during a Casual match will count as an automatic loss, and you will receive no experience.  Additionally, you will receive a matchmaking cooldown, preventing you from playing further Casual matches for a period of time. Subsequent abandons may increase the length of this cooldown."
 "TF_Casual_Welcome_Section_Three_Title"	"Late joins"
