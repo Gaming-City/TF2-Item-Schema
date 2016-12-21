@@ -1193,6 +1193,7 @@
 "TF_TournamentMedal_2015"	"2015"
 "TF_TournamentMedal_2016"	"2016"
 "TF_TournamentMedal_2017"	"2017"
+"TF_TournamentMedal_2018"	"2018"
 
 "TF_TournamentMedal_AFC_Div1_1st"			"AsiaFortress Cup Division 1 1st Place"
 "TF_TournamentMedal_AFC_Div1_2nd"			"AsiaFortress Cup Division 1 2nd Place"
@@ -1234,6 +1235,10 @@
 "TF_TournamentMedal_GAlloween_Silver"			"GA'lloween Silver Medal"
 "TF_TournamentMedal_GAlloween_Bronze"			"GA'lloween Bronze Medal"
 "TF_TournamentMedal_GAlloween_Participant"		"GA'lloween Participant Badge"
+
+"TF_TournamentMedal_PASSTime_Gold"				"PASS Time Tournament Gold Medal"
+"TF_TournamentMedal_PASSTime_Silver"			"PASS Time Tournament Silver Medal"
+"TF_TournamentMedal_PASSTime_Bronze"			"PASS Time Tournament Bronze Medal"
 
 "TF_TF2Connexion_Division_1_Gold"				"TF2Connexion Division 1 Gold Medal"
 "TF_TF2Connexion_Division_2_Gold"				"TF2Connexion Division 2 Gold Medal"
@@ -1308,9 +1313,13 @@
 
 "TF_Medal_SpecialSnowflake"						"Special Snowflake"
 "TF_Medal_SpecialSnowflake_Desc"					"Tell Global Warming who's boss by wearing a fake snowflake on your chest. Awarded to the participants of the Workshop Wonderland 2015 community showcase!"
-
 "TF_Medal_GiftOfGiving"							"Gift of Giving"
 "TF_Medal_GiftOfGiving_Desc"						"Give a little, get a little. For the charitable hearts of gold during the charity drive of the Workshop Wonderland 2015 community showcase!"
+
+"TF_Medal_SpecialSnowflake2016"					"Special Snowflake 2016"
+"TF_Medal_SpecialSnowflake2016_Desc"					"Golden snow? No, no, don't worry, it's lemon! Awarded to the participants of the Workshop Wonderland 2016 community showcase!"
+"TF_Medal_GiftOfGiving2016"						"Gift of Giving 2016"
+"TF_Medal_GiftOfGiving2016_Desc"						"So everyone can game. For the charitable hearts of gold during the charity drive of the Workshop Wonderland 2016 community showcase!"
 
 "TF_MapperMedal"				"Map Maker's Medallion" // ADD THE
 "TF_MapperMedal_Desc"				""
@@ -1326,6 +1335,11 @@
 "TF_TournamentMedal_72hr_summer_jimijam"	"TF2Maps 72hr TF2Jam Summer Participant"
 "TF_TournamentMedal_72hr_jimijam_style0"	"Medal"
 "TF_TournamentMedal_72hr_jimijam_style1"	"Pin"
+
+"TF_rewind_lan_gold"			"ESA Rewind 1st Place"
+"TF_rewind_lan_silver"			"ESA Rewind 2nd Place"
+"TF_rewind_lan_bronze"			"ESA Rewind 3rd Place"
+"TF_rewind_lan_participant"		"ESA Rewind Participant"
 
 "TF_reddit_random_acts"					"Altruist's Adornment"
 "TF_reddit_random_acts_Desc"			"A medal to recognize the generous gifters of the Random Acts of TF2 group"
@@ -1454,6 +1468,11 @@
 "TF_Wearable_Wingstick"	"Wingstick"
 "TF_Wearable_Rose"		"Rose"
 "TF_Wearable_Tools"		"Tools"
+"TF_Wearable_Package"		"Package"
+"TF_Wearable_Snowboard"	"Snowboard"
+"TF_Wearable_Provisions"	"Provisions"
+"TF_Wearable_CandyCanes"	"Candy Canes"
+"TF_Wearable_Guitar"	"Guitar"
 
 "TF_RobotPart_Type"	"Robot Part"
 "TF_CircuitBoard_Type"	"Circuit Board"
@@ -1993,6 +2012,8 @@
 "TF_JingleJam_Community_Event_2015_Promo_Desc"	""
 "TF_JingleJam_Community_Event_2016_Promo"	"Yogscast Jingle Jam 2016 Promo"
 "TF_JingleJam_Community_Event_2016_Promo_Desc"	""
+"TF_ChefStepsJoulePromo"	"ChefSteps Joule Promo"
+"TF_ChefStepsJoulePromo_Desc"	""
 
 "TF_Bundle_STSBundle"			"Steam Translation Bundle"
 "TF_Bundle_STSBundle_Desc"	""
@@ -4045,6 +4066,8 @@
 
 "TF_Truce_Start"			"Truce! No enemy damage allowed during the truce!"
 "TF_Truce_End"				"The truce has ended! Game on!"
+
+"TF_Autobalance_Start"		"Teams are unbalanced. Asking team %s1 for volunteers."
 
 "Team_Capture_Linear"		"Preceding\npoint\nnot owned!"
 "Team_Capture_Blocked"		"Capture\nblocked\nby enemy"
@@ -7610,6 +7633,8 @@
 "ToughBreakCosmetics_collection_desc"		"Items from the Tough Break Cosmetics Collection:"
 "MayflowerCosmetics_collection"				"Mayflower Cosmetics Collection"
 "MayflowerCosmetics_collection_desc"		"Items from the Mayflower Cosmetics Collection:"
+"Winter2016Cosmetics_collection"			"Winter 2016 Cosmetics Collection"
+"Winter2016Cosmetics_collection_desc"		"Items from the Winter 2016 Cosmetics Collection:"
 
 "Footer_GunMettleCosmetics"					"Contents may be Strange or an Unusual Gun Mettle Hat"
 "TF_GunMettleCosmeticCase"					"Gun Mettle Cosmetic Case"
@@ -7666,8 +7691,14 @@
 "TF_Winter_2015_Mystery_desc"				"A festive gift from Mann Co.\nContains a Gun Mettle and Tough Break Festivizer\n\nMerry Smissmas!"
 
 "TF_FestivizerTool"							"Festivizer"
-"TF_Winter2015_Festivizer"					"The Gun Mettle and Tough Break Festivizer"
-"TF_Winter2015_Festivizer_desc"				"Festivize your favorite weapon from\nthe Gun Mettle or Tough Break Campaigns.\nCan be applied on a weapon from the following collections:\n\nConcealed Killer Collection\nCraftsmann Collection\nPowerhouse Collection\nTeufort Collection\nHarvest Collection\nGentlemanne's Collection\nPyroland Collection\nWarbird Collection"
+"TF_Festivizer"						"Festivizer"
+"TF_Festivizer_desc"				"Used to festivize a weapon"
+
+// Smissmas 2016
+"TF_KeylessWinter2016_Case"				"Unlocked Winter 2016 Cosmetic Case"
+"TF_KeylessWinter2016_Case_desc"		"This case is unlocked and does not require a key.\n\nContains a community made item\nfrom the Winter 2016 Cosmetics Collection.\n\nWill only be available for a limited time!"
+"TF_KeylessWinter2016_Case_adtext"		"-Unlocked and does not require a key\n-Contains Community Cosmetics\n-Contents may be Strange or an Unusual Hat\n-Includes a chance to find a Festivizer as a bonus drop!"
+"Footer_KeylessWinter2016_Case"			"Contents may be Strange or an Unusual Hat. Includes a chance to find a Festivizer as a bonus drop!"
 
 //Paintkit items
 "concealedkiller_pistol_redrockroscoe"				"Red Rock Roscoe"	// ADD THE
@@ -8584,7 +8615,7 @@
 "Attrib_LunchboxHealingDecreased"		"%s1% healing effect"
 "Attrib_IsASword"						"This Weapon has a large melee range and\ndeploys and holsters slower"
 "Attrib_AmmoGivesCharge"				"Ammo boxes collected also give Charge"
-"Attrib_IsFestive"						"Festivized"
+"Attrib_IsFestivized"						"Festivized"
 "Attrib_Fuse_Bonus"						"%s1% fuse time on grenades"
 "Attrib_DamageBonusAgainstSentryTarget" "%s1% increased damage to your sentry's target"
 "Attrib_TeleporterBuildCost"			"%s1% metal cost when constructing or upgrading teleporters"
@@ -8875,6 +8906,9 @@
 "TF_Weapon_GrapplingHook"		"Grappling Hook"
 "TF_Weapon_GrapplingHook_desc"	"Press and hold the Actionkey\nto quickly fire a grapple line.\n\nOptionally can be switched to by pressing slot6\nand manually fired using primary attack.\n\nCan only be used in Mannpower Mode or when enabled by the server."
 "TF_GrapplingHook_EquipAction"	"Grappling Hook not equipped. Accept to equip your Grappling Hook in the Action slot to use it."
+
+"TF_AutoBalanceVolunteer"	"Would you like to help balance the match by volunteering to switch teams? You will be switched immediately if you still qualify and are needed when you reply."
+"TF_AutoBalanceVolunteerXPBonus"	"Would you like to help balance the match by volunteering to switch teams? Experience points you earn after switching will be doubled up to %points% points. You will be switched immediately if you still qualify and are needed when you reply."
 
 // Unique item names
 "TF_Unique_Prepend_Proper"			"The "	[$ENGLISH]		// the space at the end is important
@@ -9176,7 +9210,6 @@
 "ItemNameKillStreakv2"						"Professional Killstreak "
 "ItemDescStrangify"							"This strangifier can be applied to a %s1.  If the %s1 is Normal quality it will be upgraded to Strange quality."
 "ItemDescKillStreakify"						"This Killstreak Kit can be applied to a %s1."
-"ItemDescFestive2015"						"This Festivizer can be applied to a 2015 Weapon Collection item."
 "ItemDescUnusualify"						"This Unusualifier can be applied to a %s1."
 
 "TF_CheatDetected_Title"			"WARNING"
@@ -11500,22 +11533,14 @@
 "TF_SurveyQuestion_Rating3"				"Good"
 "TF_SurveyQuestion_Rating4"				"Great"
 
-"TF_Matchmaking_RollingQueue_Rematch_Success" "Rematch vote succeeded!  Starting rematch..."
-"TF_Matchmaking_RollingQueue_Rematch_Failure" "Rematch vote failed."
-"TF_Matchmaking_RollingQueue_Rematch_GCFail" "Rematch failed to start."
-"TF_Matchmaking_RollingQueue_Rematch"	"Rematch!"
-"TF_Matchmaking_RollingQueue_RequeueNonLeader" "Your party leader is choosing..."
+"TF_Matchmaking_RollingQueue_NewRematch_GCFail" "New match failed to start.  Please re-enter the matchmaking queue."
 "TF_Matchmaking_RollingQueue_Requeue"	"No, find a New Match"
 "TF_Matchmaking_RollingQueue_JoinNow"	"Join Now"
 "TF_Matchmaking_RollingQueue_Start"		"Finding a new match..."
-"TF_Matchmaking_RollingQueue_RematchStarting"		"Rematch starting..."
-"TF_Matchmaking_RollingQueue_Rematch_Waiting" "Rematch vote in progress..."
 "TF_Matchmaking_RollingQueue_AutojoinWarning"	"Joining next match in %s1"
 "TF_Matchmaking_RollingQueue_NewMatchReady" "New match ready to join!"
-"TF_Matchmaking_RollingQueue_MatchOver"	"Rematch?"
-"TF_Matchmaking_RollingQueue_RematchVoteEndTime" "Rematch voting ends in %s1"
-"TF_Matchmaking_RollingQueue_RematchVotesNeeded" "%s1 more BLU and %s2 more RED needed for a rematch."
-"TF_Matchmaking_RollingQueue_RematchVotesMet"	"Enough players for a rematch!"
+"TF_Matchmaking_RollingQueue_MatchOver"	"Vote for the next map"
+"TF_Matchmaking_RollingQueue_NextMapWinner" "Coming up next"
 "TF_Matchmaking_RollingQueue_LeaveParty"	"Leave Party"
 "TF_Matchmaking_SafeToLeave"			"This match is safe to leave"
 "TF_Matchmaking_NotSafeToLeave"			"It is not safe to leave this match"
@@ -11634,6 +11659,7 @@
 "TF_XPSource_Comp_Abandon"			"Abandon Penalty"
 "TF_XPSource_Comp_Win"				"Match Win"
 "TF_XPSource_Comp_Loss"				"Match Loss"
+"TF_XPSource_Autobalance_Bonus"		"Autobalance"
 
 "TF_Competitive_MatchHistory_Win"		"Win"
 "TF_Competitive_MatchHistory_Loss"		"Loss"
@@ -12568,6 +12594,21 @@
 
 "TF_secondrate_sorcery"		"Taunt: Second Rate Sorcery"
 "TF_secondrate_sorcery_Desc"	"All Class Taunt"
+
+"TF_taunt_scotsmans_stagger"	"Taunt: Scotsmann's Stagger"
+"TF_taunt_scotsmans_stagger_Desc"	"Demoman Taunt"
+"TF_taunt_scotsmans_stagger_AdText"	"-Community Created Demoman Taunt\n-Almost unconscious and rambling to yourself, but still dangerous!"
+
+"TF_taunt_didgeridrongo"		"Taunt: Didgeridrongo"
+"TF_taunt_didgeridrongo_Desc"		"Sniper Taunt"
+"TF_taunt_didgeridrongo_AdText"		"-Community Created Sniper Taunt\n-Play 'em a tune they'll never forget!"
+
+"TF_TauntTableTantrum"		"Taunt: The Table Tantrum"
+"TF_TauntTableTantrum_Desc"		"Heavy Taunt\nWin debates like ancient philosophers in the time before language but after tables."
+"TF_TauntTableTantrum_AdText"	"-Heavy Taunt\n-Win debates like ancient philosophers in the time before language but after tables."
+
+"TF_TauntBoilingPoint"		"Taunt: The Boiling Point"
+"TF_TauntBoilingPoint_Desc"		"Take your anger and cooking to the next level. Which is the floor."
 
 
 "TF_TurnerAllStars"			"Buck Turner All-Stars"
@@ -13605,6 +13646,41 @@ D-pad to move, triggers=faster, A button for next line."
 "TF_dec15_shin_shredders"					"Shin Shredders"
 "TF_dec15_shin_shredders_desc"					""
 
+"TF_dec16_stocking"							"Socked and Loaded"
+"TF_dec16_stocking_Desc"						""
+"TF_dec16_flammable_favor"					"Flammable Favor"
+"TF_dec16_flammable_favor_Desc"					""
+"TF_dec16_snowwing"							"Snowwing"
+"TF_dec16_snowwing_Desc"						""
+"TF_dec16_packable_provisions"				"Packable Provisions"
+"TF_dec16_packable_provisions_Desc"				""
+"TF_dec16_handy_canes"						"Handy Canes"
+"TF_dec16_handy_canes_Desc"						""
+"TF_dec16_bomb_beanie"						"Bomb Beanie"
+"TF_dec16_bomb_beanie_Desc"						""
+"TF_dec16_electric_twanger"					"Electric Twanger" // ADD THE
+"TF_dec16_electric_twanger_Desc"				""
+"TF_dec16_santarchimedes"					"Santarchimedes"
+"TF_dec16_santarchimedes_Desc"					""
+"TF_dec16_smissmas_sweater"					"Sweet Smissmas Sweater"
+"TF_dec16_smissmas_sweater_Desc"				""
+"TF_dec16_brain_warming_wear"				"Brain-Warming Wear"
+"TF_dec16_brain_warming_wear_Desc"				""
+"TF_dec16_snowmann"							"Snowmann" // ADD THE
+"TF_dec16_snowmann_Desc"						""
+"TF_dec16_bomber_knight"					"Bomber Knight" // ADD THE
+"TF_dec16_bomber_knight_Desc"					""
+"TF_dec16_readers_choice"					"Reader's Choice"
+"TF_dec16_readers_choice_Desc"					""
+"TF_dec16_woolen_warmer"					"Woolen Warmer"
+"TF_dec16_woolen_warmer_Desc"					""
+"TF_dec16_pyro_the_flamedeer"				"Pyro the Flamedeer"
+"TF_dec16_pyro_the_flamedeer_Desc"				""
+"TF_dec16_elf_esteem"						"Elf Esteem"
+"TF_dec16_elf_esteem_Desc"						""
+"TF_dec16_head_prize"						"Head Prize" // ADD THE
+"TF_dec16_head_prize_Desc"						""
+
 "TF_may16_airdog"						"Airdog" // ADD THE
 "TF_may16_airdog_desc"					""
 "TF_may16_bedouin_bandana"				"Bedouin Bandana"
@@ -14284,5 +14360,36 @@ Shoot the alien explosive drones to take out enemies or engineer buildings."
 "TF_Passtime_Goal"					"GOAL"
 "TF_Passtime_InPassRange"			"IN PASS RANGE"
 "TF_Passtime_CarrierName"			"Carrier: %s1"
+
+"TF_LobbyContainer_Help"			"Help"
+"TF_LobbyContainer_Ping"			"Ping Settings"
+"TF_LobbyContainer_CustomPingButton"	"Use Custom Ping Limit"
+"TF_LobbyContainer_CustomPingDesc"	"Matchmaking will find the best match within this ping tolerance. The display below shows regions included within this ping limit."
+"TF_DataCenter_eat"				"Seattle, USA"
+"TF_DataCenter_lax"				"Los Angeles, USA"
+"TF_DataCenter_iad"				"Sterling, USA"
+"TF_DataCenter_atl"				"Atlanta, USA"
+"TF_DataCenter_gru"				"São Paulo, Brazil"
+"TF_DataCenter_scl"				"Santiago, Chile"
+"TF_DataCenter_lim"				"Lima, Peru"
+"TF_DataCenter_lux"				"Luxembourg City, Luxembourg"
+"TF_DataCenter_vie"				"Vienna, Austria"
+"TF_DataCenter_sto"				"Stockholm, Sweden"
+"TF_DataCenter_mad"				"Madrid, Spain"
+"TF_DataCenter_sgp"				"Singapore"
+"TF_DataCenter_hkg"				"Hong Kong"
+"TF_DataCenter_tyo"				"Tokyo, Japan"
+"TF_DataCenter_syd"				"Sydney, Australia"
+"TF_DataCenter_dxb"				"Dubai, UAE"
+"TF_DataCenter_bom"				"Mumbai, India"
+"TF_DataCenter_maa"				"Chennai, India"
+"TF_DataCenter_ord"				"Chicago, USA"
+"TF_DataCenter_waw"				"Warsaw, Poland"
+"TF_DataCenter_jhb"				"Johannesburg, South Africa"
+"TF_DataCenter_bt1"				"Beta 1"
+"TF_DataCenter_bt2"				"Beta 2"
+"TF_DataCenter_dum"				"Dumm1"
+"TF_DataCenter_beta"			"Beta"
+
 }
 }
