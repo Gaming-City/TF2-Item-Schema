@@ -8909,6 +8909,7 @@
 
 "TF_AutoBalanceVolunteer"	"Would you like to help balance the match by volunteering to switch teams? You will be switched immediately if you still qualify and are needed when you reply."
 "TF_AutoBalanceVolunteerXPBonus"	"Would you like to help balance the match by volunteering to switch teams? Experience points you earn after switching will be doubled up to %points% points. You will be switched immediately if you still qualify and are needed when you reply."
+"TF_AutoBalanceVolunteer_ChatText"	"You have a notification in the main menu about volunteering to switch teams..."
 
 // Unique item names
 "TF_Unique_Prepend_Proper"			"The "	[$ENGLISH]		// the space at the end is important
@@ -10608,6 +10609,9 @@
 "TF_ShowMarketDataOnItems_WhenBordersOnly"	"When Showing Marketable Borders"
 "TF_ShowMarketDataOnItems_Always"			"Always"
 "Tooltip_ShowMarketDataOnItems"	"Some items can be bought and sold on the Steam Community Market. This option allows you to control when Community Market information about items, including current Market availability and prices, will appear in item descriptions."
+
+"TF_ShowPromotionalCodesButton"	"Show 'View Promotional Codes' button"
+"Tooltip_ShowPromotionalCodesButton"	"Toggles the 'View Promotional Codes' button in the main menu for players that have used the 'RIFT Well Spun Hat Claim Code'."
 
 "TF_Trading_StatusTitle"		"Trade Status"
 // timeout
