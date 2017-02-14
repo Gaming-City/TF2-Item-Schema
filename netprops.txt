@@ -1,4 +1,4 @@
-// Dump of all network properties for "tf" as at 2017/01/16
+// Dump of all network properties for "tf" as at 2017/02/14
 //
 
 CAI_BaseNPC (type DT_AI_BaseNPC)
